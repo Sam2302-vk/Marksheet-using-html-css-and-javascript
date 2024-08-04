@@ -1,0 +1,179 @@
+body, h1, h2, h3, h4, p, table {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background:rgb(243, 238, 232);
+    border:2px solid rgb(68, 25, 25);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+#logo {
+    height: 200px;
+}
+#qr{
+    height: 100px;
+}
+#sr-no {
+    font-size: 16px;
+    color: #555;
+}
+
+.institute {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.institute h2 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.institute h3 {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.institute h1 {
+    font-size: 28px;
+    margin: 20px 0;
+    color: #333;
+}
+
+.candidate-table table {
+    width: 100%;
+    border:2px solid brown;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.candidate-table th, .candidate-table td {
+    border: 1px solid brown;
+    padding: 10px;
+    text-align: left;
+}
+
+.candidate-table th {
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.candidate-table h4 {
+    margin: 0;
+    font-size: 16px;
+    font-weight:bold;
+}
+
+.mark-table {
+    border:2px  brown;
+    margin-bottom: 20px;
+}
+
+.mark-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.mark-table th, .mark-table td {
+    border: 1px solid brown;
+    padding: 8px;
+    text-align: center;
+    font: weight 500px;;
+}
+
+.mark-table th {
+    background-color: #f4f4f4;
+}
+
+.mark-table input[type="text"] {
+    width: 100%;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.table-footer table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table-footer th, .table-footer td {
+    border: 1px solid brown;
+    padding: 10px;
+    text-align: center;
+}
+
+.table-footer th {
+    background-color: #f4f4f4;
+}
+
+footer {
+    text-align: right;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+footer p {
+    margin: 5px 0;
+    text-align: left;
+}
+td input{
+    width:fit-content ;
+    background-color: rgb(236, 216, 189) ;
+
+}
+input{
+    margin-left:-5px;
+    outline: none;
+}
+th{
+    color: brown;
+}
+#sign{
+    text-align: right;
+}
+.indication h4{
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+}
+tr h4{
+    color: black;
+    margin-top: 5px;
+}
+.candidate-table th{
+    background-color: rgb(236, 216, 189);
+}
+.mark-table table{
+  background-color: rgb(236, 216, 189);
+}
+.coe{
+    text-align: right;
+}
+.container span{
+    color: red;
+}
